@@ -10,9 +10,52 @@
     <script src="assets/JS/main.js" defer></script>
 </head>
 <body>
-    <!-- GLOBAL HEADER -->
-    <!-- GLOBAL NAVIGATION -->
+    <!-- GLOBAL NAVIGATION/HEADER -->
+    <header class="headerMain">
+      <nav class="categories">
+          <ul>
+              <li><a href="#">Beauty</a></li>
+              <li><a href="#">Furniture</a></li>
+              <li><a href="#">Groceries</a></li>
+              <li><a href="#">Kitchen</a></li>
+              <li><a href="#">Home</a></li>
+          </ul>
+      </nav>
+      <div class="logo">
+          <img src="assets/Images/Loading/Frame header/Logo/Header.svg" alt="">
+      </div>
+      <div class="cartWrapper">
+          <div class="searchbar">
+              <img src="assets/Images/Loading/Frame header/image 72.2.svg" alt="Search" class="searchIcon">
+              <input type="text" placeholder="Search" class="searchInput">
+          </div>
+          <button class="cartBtn">
+              <img src="assets/Images/Loading/Frame header/system icon/24px/Cart.svg" alt="Cart" class="cartIcon">
+              <span class="cartSpan">0</span>
+          </button>
+      </div>
+  </header>
     <!-- MAIN SECTOON -->
+    <main class="product-list">
+      <div class="product">
+          <h3>Product 1</h3>
+          <p>$10.00</p>
+          <button class="add-to-cart" data-price="10">Add to Cart</button>
+      </div>
+      <div class="product">
+          <h3>Product 2</h3>
+          <p>$15.00</p>
+          <button class="add-to-cart" data-price="15">Add to Cart</button>
+      </div>
+      <div class="product">
+          <h3>Product 3</h3>
+          <p>$7.00</p>
+          <button class="add-to-cart" data-price="7">Add to Cart</button>
+      </div>
+  </main>
     <!-- GLOBAL FOOTER -->
+    <footer class="footerMain">
+      
+    </footer>
 </body>
 </html>
