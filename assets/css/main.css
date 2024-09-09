@@ -154,17 +154,16 @@ video {
 .footerMain {
   display: flex;
   justify-content: space-between;
-  padding: 10rem 20rem; /* White space on the left and right */
+  padding: 10rem 20rem; 
   background-color: rgb(245, 248, 249);
   max-width: 100%;
   height: 200px;
-  position: relative; /* Ensures proper positioning */
+  position: relative; 
 }
 
 .lists {
   display: grid;
-  grid-template-columns: repeat(3, auto); /* 3 columns for the lists */
-  gap: 4rem; /* Gap between columns */
+  grid-template-columns: repeat(3, auto); 
 }
 
 .lists ul {
@@ -192,14 +191,14 @@ video {
 .ratings {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centers items vertically */
-  align-items: center; /* Centers items horizontally */
+  justify-content: center; 
+  align-items: center;
 }
 
 .ratings ul {
   display: flex;
-  flex-direction: column; /* Align images vertically */
-  gap: 0.5rem; /* Space between the images */
+  flex-direction: column; 
+  gap: 0.5rem; 
 }
 
 .ratings img {
@@ -209,4 +208,5 @@ video {
 
 /* #endregion */
 /* #region MEDIA QUERIES  */
+
 /* #endregion */
