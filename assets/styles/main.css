@@ -82,7 +82,7 @@ video {
   display: block;
   font-size: var(--font-size-lg);
   padding: var(--padding-md);
-  color: var(--light);
+  color: var(--black);
   text-decoration: none;
 }
 
