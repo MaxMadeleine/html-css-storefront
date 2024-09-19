@@ -66,92 +66,51 @@ video {
 /* #region HEADER NAVIGATION */
 .headerMain {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
-  gap: var(--gap-sm);
-  width: var(--width-full);
-  height: auto;
-  background-color: var(--white);
   padding: var(--padding-md);
+  background-color: var(--white);
 }
-.categories ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  list-style: none;
-  width: var(--width-medium);
 
-  li a {
-    display: block;
-    font-size: var(--font-size-lg);
-    padding: var(--padding-md);
-    color: var(--black);
-    text-decoration: none;
-  }
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: var(--padding-sm);
 }
+
 .logo {
-  justify-self: center;
   width: var(--width-logo);
 }
+
 .cartWrapper {
   display: flex;
   align-items: center;
   gap: var(--gap-lg);
-  width: var(--width-medium);
+}
 
-  .searchbar {
+.categories {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: var(--padding-sm);
+
+  ul {
     display: flex;
-    align-items: center;
-    background-color: var(--white);
-    padding: var(--input-padding);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: var(--width-small);
+    justify-content: center;
+    gap: var(--gap-md);
+    list-style: none;
 
-    .searchIcon {
-      width: var(--width-search-icon);
-      height: var(--width-search-icon);
-    }
-
-    .searchInput {
-      border: none;
-      outline: none;
-      width: var(--width-full);
-      font-size: var(--font-size-sm);
-      text-align: center;
+    li a {
+      font-size: var(--font-size-lg);
+      padding: var(--padding-md);
+      text-decoration: none;
       color: var(--black);
-
-      &::placeholder {
-        text-align: center;
-      }
-    }
-  }
-  .cartBtn {
-    background: none;
-    border: none;
-    cursor: pointer;
-    position: relative;
-
-    .cartIcon {
-      width: var(--width-icon);
-      height: auto;
-    }
-    .cartSpan {
-      position: absolute;
-      top: -10px;
-      right: -10px;
-      background-color: var(--accent-color);
-      color: var(--white);
-      border-radius: 50%;
-      padding: var(--padding-sm);
-      font-size: var(--font-size-xs);
-      width: var(--cart-span-size);
-      height: var(--cart-span-size);
-      display: flex;
-      justify-content: center;
-      align-items: center;
     }
   }
 }
+
 /* #endregion HEADER NAVIGATION */
 /* #region ITEMS */
 .product-list {
